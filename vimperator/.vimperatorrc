@@ -1,0 +1,9 @@
+:noremap j 3j
+:noremap k 3k
+
+:map <C-.> :fnext<CR>
+:map <C-,> :fprev<CR>
+:map <C-c> :fcatalog<CR>
+
+:set hintchars=hjklasdfgyuiopqwertnmzxcvb
+:highlight Hint font-size:200%;color:white;background-color:red;padding:2px;
