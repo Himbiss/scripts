@@ -1,0 +1,35 @@
+# magentayellow theme by himbiss
+
+#property		fg	bg	fx
+background =		default	default
+frame =			magenta	default
+window_title =		yellow	default
+directory =		magenta	default
+selected_directory =	cyan	default	bold
+playlist =		yellow	default
+selected_playlist =	cyan	default	bold
+file =			magenta	default
+selected_file =		yellow	default	bold
+marked_file =		yellow	default	underline
+marked_selected_file =  yellow  default	bold
+info =			magenta	default
+status =		white	default
+title =			magenta	default
+state =			magenta	default
+current_time =		cyan	default
+time_left =		cyan	default
+total_time =		cyan	default
+time_total_frames =	yellow	default
+sound_parameters =	yellow	default
+legend =		magenta	default
+disabled =		cyan	default
+enabled =		yellow	default
+empty_mixer_bar =	yellow	default
+filled_mixer_bar =	yellow	cyan
+empty_time_bar =	yellow	default
+filled_time_bar =	yellow	cyan
+entry =			yellow	default
+entry_title =		magenta	default
+error =			red	default
+message =		yellow	default
+plist_time =		cyan	default
