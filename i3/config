@@ -38,7 +38,7 @@ bindsym $mod+Return exec sakura
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -b -fn 'xft:Terminus:pixelsize=8' -nb '#191919' -nf '#9ac0cd' -sb '#191919' -sf '#bf3f34' -p 'picklist >> '
+bindsym $mod+d exec dmenu_run -fn 'xft:Terminus:pixelsize=8' -nb '#191919' -nf '#b5128f' -sb '#191919' -sf '#e8e837' -p '> '
 
 # colors
 # class                    border   backgr.  text
@@ -173,11 +173,11 @@ bar {
 	mode dock
 
   colors {
-	statusline #76c2d6
+	statusline #b5128f
 	background #191919
 	
         # class                 border 		background 	text
-        focused_workspace      #191919 		#191919 	#bf3f34
+        focused_workspace      #191919 		#191919 	#b5128f
 	active_workspace       #191919 		#191919 	#696f89
 	inactive_workspace     #191919 		#191919 	#696f89
 	urgent_workspace       #191919 		#191919 	#c7a551
@@ -185,7 +185,7 @@ bar {
 }
 
 # execute feh background
-exec feh --bg-scale ~/Bilder/wallpaper.jpg
+exec feh --bg-scale ~/Bilder/wallpaper/stag2.png
 
 # media keybindings
 # Pulse Audio controls
