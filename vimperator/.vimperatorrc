@@ -1,12 +1,13 @@
-:noremap j 3j
-:noremap k 3k
+:colorscheme sweets_snaka
+:noremap j 2j
+:noremap k 2k
 
 :map <C-.> :fnext<CR>
 :map <C-,> :fprev<CR>
 :map <C-c> :fcatalog<CR>
 
 :set hintchars=hjklasdfgyuiopqwertnmzxcvb
-:highlight Hint font-size:200%;color:white;background-color:red;padding:2px;
+:highlight Hint font-size:100%;color:white;background-color:gray;padding:2px;
 
 "javascript to hide statusbar
 noremap <silent> <F8> :js toggle_bottombar()<CR>
